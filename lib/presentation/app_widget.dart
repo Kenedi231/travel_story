@@ -11,7 +11,7 @@ class AppWidget extends StatelessWidget {
       title: 'Travel Story',
       debugShowCheckedModeBanner: false,
       onGenerateRoute: Router.onGenerateRoute,
-      initialRoute: Router.homePage,
+      initialRoute: Router.splashPage,
       navigatorKey: Router.navigator.key,
     );
   }
