@@ -39,6 +39,7 @@ class AuthForm extends StatelessWidget {
     return FlutterLogin(
       theme: LoginTheme(
         primaryColor: Colors.black,
+        accentColor: Colors.black,
         errorColor: Colors.deepOrange,
         titleStyle: TextStyle(
           color: Colors.white,
