@@ -9,5 +9,7 @@ class $Router {
   @initial
   SplashPage splashPage;
   AuthForm authForm;
+
+  @MaterialRoute(fullscreenDialog: true)
   HomePage homePage;
 }

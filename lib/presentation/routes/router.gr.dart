@@ -33,6 +33,7 @@ class Router {
         return MaterialPageRoute<dynamic>(
           builder: (_) => HomePage(),
           settings: settings,
+          fullscreenDialog: true,
         );
       default:
         return unknownRoutePage(settings.name);

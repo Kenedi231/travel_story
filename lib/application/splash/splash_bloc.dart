@@ -17,11 +17,11 @@ class SplashBloc extends Bloc<SplashEvent, SplashState> {
   ) async* {
     yield* event.map(
       initial: (e) async* {
-        await Future.delayed(Duration(seconds: 2));
+        await Future.delayed(const Duration(seconds: 2));
         add(const SplashEvent.finishLoading());
       },
       finishLoading: (e) async * {
-        yield SplashState.finishLoading();
+        yield const SplashState.finishLoading();
       },
     );
   }
